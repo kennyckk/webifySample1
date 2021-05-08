@@ -1,0 +1,32 @@
+.homepage-bgimage {
+  background: url("../img/services-bg.jpg");
+  min-height: 55vh;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.introbackground {
+  background-color: #ebaca2;
+}
+
+.infotext {
+  color: #4a919e;
+}
+
+.text-wrap:hover {
+  transform: scale(1.1);
+}
+
+.text-wrap {
+  transition: transform 0.2s ease;
+}
+
+.gradientMask {
+  background: linear-gradient(
+    45deg,
+    rgba(29, 236, 197, 0.5),
+    rgba(91, 14, 214, 0.5) 100%
+  );
+}
